@@ -13,7 +13,7 @@
 
 /* html */
 html {
-    box-sizing: border-box;
+    box-sizing: border-box; 
     font-family: Arial, Helvetica, sans-serif;
     color: #000;
 }
@@ -28,6 +28,10 @@ body {
 .wrapper {
     display:  grid;
     grid-gap: 20px;
+}
+
+img {
+    opacity: 1.0;
 }
 
 /* Navigation */
@@ -67,7 +71,8 @@ body {
 .showcase {
     grid-area: showcase;
     min-height: 400px;
-    background: url(../img/iMacAndiPad.jpg);
+    background-color: #000;
+    background: url(../img/iMacAndiPad-dark2.png); 
     background-size: cover;
     background-position: center;
     padding: 3rem;
@@ -76,7 +81,7 @@ body {
     align-items: start;
     justify-content: center;
     box-shadow: var(--shadow);
-    color: var(--beige);
+    color: #fff;
 }
 
 .showcase h1 {
@@ -113,6 +118,13 @@ body {
     grid-area: top-box-b;
 }
 
+
+/* Separator */
+.separator {
+    height: 30px;
+    width: 100%;
+    background: var(--lightblue);
+}
 /* Boxes */
 .boxes {
     display: grid;
@@ -127,8 +139,12 @@ body {
     box-shadow: var(--shadow);
 }
 
-
-
-.added-features {
-    list-style: url(./img/icons8-checkmark-24.png);
+.separator h2{
+    color: #000;
+    background: var(--lightblue);
+    text-align: center;
 }
+
+/* .added-features {
+    list-style: url(./img/icons8-checkmark-24.png);
+} */
