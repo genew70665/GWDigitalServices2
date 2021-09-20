@@ -20,9 +20,21 @@ html {
 
 body {
     background: var(--lightgrey);
-    margin: 30px 50px;
+    /* margin: 30px 50px; */
     line-height: 1.4;
     color: #000;
+}
+
+.top-header {
+    background-color: var(--myblack);
+    height: 4rem;
+}
+
+.top-header h6 {
+    color: var(--mywhite);
+    margin-left: 1rem;
+    margin-right: 3rem;
+    margin-top: 4px;
 }
 
 .wrapper {
@@ -30,8 +42,8 @@ body {
     grid-gap: 20px;
 }
 
-img {
-    opacity: 1.0;
+img{
+    opacity:1;
 }
 
 /* Navigation */
@@ -143,6 +155,31 @@ img {
     color: #000;
     background: var(--lightblue);
     text-align: center;
+}
+
+.footer {
+    background: var(--myfont);
+    width:100%;
+    height: 6rem;
+    color: var(--mywhite);
+}
+
+footer h4{
+    text-align: center;
+}
+
+.footer-div {
+    display: inline;
+    align-items:space-between;
+    width:50px;
+    height: 50px;
+    }
+
+.footer-logos{
+    width:50px;
+    height: 50px;
+    margin-left: 5rem;
+    margin-right:15rem;
 }
 
 /* .added-features {
